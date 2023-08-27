@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tulip</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googlepis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"><img src="images/logo.png" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificates and online programs</h1>
+    </section>
+
+    <!-- blog page content-- -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificates and online programs</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae velit, eius quidem, quaerat autem
+                    laborum iusto magni necessitatibus aliquam recusandae minima saepe vero. Quis, reiciendis ipsa.
+                    Ipsum dicta, doloribus sapiente asperiores ad facilis, repudiandae dignissimos aut quod earum iusto
+                    similique.</p>
+                <br>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta modi quidem, maiores mollitia et aut
+                distinctio perferendis optio nobis dicta veniam minus consectetur explicabo harum vero repellendus,
+                magni laborum, maxime esse molestias incidunt est. Accusantium saepe necessitatibus repudiandae error
+                voluptatem similique repellendus. Itaque, ipsum dolorum.
+                <br>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore libero quisquam cupiditate delectus
+                voluptatum? Repellendus incidunt, quia unde dolore delectus mollitia explicabo, reiciendis animi tempora
+                cumque itaque, quibusdam laboriosam nisi vel. Nisi molestias ad, iusto natus tenetur dignissimos magnam
+                debitis aut itaque, quidem voluptatem atque?
+            
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea  rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+            
+            
+            
+            
+            
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>fsdsgggs Analytics</span>
+                    <span>54</span>
+                </div>
+                <div>
+                    <span>Business ffffff</span>
+                    <span>67</span>
+                </div>
+                <div>
+                    <span>Business dfsgd</span>
+                    <span>72</span>
+                </div>
+                <div>
+                    <span> Analytics edfbdg</span>
+                    <span>44</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- footer----- -->
+
+    <section class="footer">
+        <h4>about us</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa numquam
+            impedit corrupti adipisci vel cupiditate et, aspernatur facere
+            perspiciatis odit blanditiis illum nobis asperiores porro minus nulla,
+            architecto fugiat recusandae magni saepe. Eius, officia qui!
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Mr. Nobody</p>
+    </section>
+
+    <!-- -------JavaScript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
